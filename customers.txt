@@ -1,0 +1,6 @@
+"Chwan Kai" "See" "ck" "123456" "016-7401234" "No 1, Jalan B"
+"Kian Hao" "Tee" "kh" "123456" "016-12341234" "3, Jalan MMU"
+"Wei Cong" "Kho" "wc" "123456" "014-21345533" "Jalan Melaka"
+"Chin Yean" "Tee" "cy" "123456" "014-23442345" "Jalan Hang Tuah"
+"Ali" "Bakar" "ali" "ali1234" "014-23542345" "Taman Sentosa"
+"Tan" "Ah Mai" "Ahmaitan" "1227" "0127960019" "No.33, Jalan Dedap 1"

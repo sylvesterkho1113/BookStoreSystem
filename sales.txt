@@ -1,0 +1,6 @@
+2001 "cy" 14 21.3 "Delivered" 
+2002 "ck" 39.8 62.1 "Preparing" 
+2003 "ck" 19.98 31.98 "Order placed" 
+2004 "wc" 116.19 165.69 "Order placed" 
+2005 "kh" 105.51 183.66 "Order placed" 
+2006 "wc" 61.18 95.98 "Preparing" 
