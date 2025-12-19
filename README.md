@@ -30,3 +30,9 @@ Order ID | Username | Total Cost | Total Price | Order Status
 
 6. order.txt - Order details included
 Order ID | Username | Book ID | Quantity | Book Price
+
+## Team Member
+1. See Chwan Kai
+2. Kho Wei Cong
+3. Tee Kian Hao
+4. Tee Chin Yean
