@@ -1,38 +1,96 @@
-# BookStoreSystem
-This is a C++ program that demonstrates functionality of a bookstore system.
+# 📚 BookStoreSystem
 
+A robust, console-based **Bookstore Management System** built with C++. This project demonstrates core concepts of object-oriented programming, file handling, and multi-user authentication. It provides a seamless experience for both administrators and customers to manage and purchase books.
 
-## Prerequisites
-Before begins, ensure you have the following installed:
-- C++ compiler (VS Code, Codeblock for optimal performance)
+---
 
-## Username and Password
-Admin's Username : admin
-Admin's Password : admin123
-Customer's Username : (refer to customers.txt OR register inside the program)
-Customer's Password : (refer to customers.txt OR register inside the program)
+## ✨ Key Features
 
-## Files and functions
-1. customers.txt - Information of customers
-First Name | Last Name | Username | Password | Phone Number | Address
+### 🔐 Multi-User Authentication
+*   **Admin Access**: Secure login for store administrators.
+*   **Customer Portal**: Secure login and registration system for users.
 
-2. books.txt - Information of books
-Book ID | Book Name | Book Author | Book Cost | Book Price | Description | Available Stock | Sold Stock
+### 🛠️ Admin Dashboard
+*   **Inventory Management**: Add, update, delete, and view books in the system.
+*   **Order Management**: 
+    *   Monitor all customer transactions.
+    *   Search orders by Customer Name or Status.
+    *   Update order statuses (e.g., *Placed, Preparing, Delivered*).
+*   **Sales Reports**: Generate detailed reports on earnings, profit margins, and top-selling books.
 
-3. wishlist.txt - Items added to wishlist by customers
-Username | Book ID | Book Name
+### 🛒 Customer Experience
+*   **Book Catalog**: Browse a comprehensive list of available books with pricing and descriptions.
+*   **Search Engine**: Quickly find books by title or author.
+*   **Shopping Cart**: Add books to a virtual cart, adjust quantities, and proceed to checkout.
+*   **Wishlist**: Save favorite books to a personal wishlist for future purchases.
+*   **Order History**: View past transactions with detailed digital receipts.
 
-4. cart.txt - Items added to cart by customers
-Username | Book ID | Quantity
+---
 
-5. sales.txt - Sales details included
-Order ID | Username | Total Cost | Total Price | Order Status
+## 🛠️ Technology Stack
+*   **Language**: C++
+*   **Database**: Flat-file system (`.txt` files) for persistent data storage.
+*   **Libraries**: `<iostream>`, `<fstream>`, `<iomanip>`, `<vector>`, `<chrono>`, `<thread>`.
 
-6. order.txt - Order details included
-Order ID | Username | Book ID | Quantity | Book Price
+---
 
-## Team Member
-1. See Chwan Kai
-2. Kho Wei Cong
-3. Tee Kian Hao
-4. Tee Chin Yean
+## 📁 File Structure & Database
+The system uses the following text files as its "database" layers:
+
+| File | Description |
+| :--- | :--- |
+| `customers.txt` | Stores customer profiles (Names, Usernames, Passwords, Contacts). |
+| `books.txt` | Main inventory containing Book ID, Author, Price, Stock, etc. |
+| `wishlist.txt` | Links customer usernames to their desired book IDs. |
+| `cart.txt` | Temporary storage for items pending checkout. |
+| `sales.txt` | Master record of transaction IDs, totals, and statuses. |
+| `orders.txt` | Line-item details for every transaction (Book ID, Quantity). |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+*   A C++ compiler (GCC, MSVC, or Clang).
+*   Recommended IDE: VS Code or Code::Blocks.
+
+### Compilation & Running
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/sylvesterkho1113/BookStoreSystem.git
+    ```
+2.  Navigate to the directory:
+    ```bash
+    cd BookStoreSystem
+    ```
+3.  Compile the source code:
+    ```bash
+    g++ G03_BookStoreSystem.cpp -o BookStoreSystem
+    ```
+4.  Run the application:
+    ```bash
+    ./BookStoreSystem
+    ```
+
+---
+
+## 🔑 Default Credentials
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Admin** | `admin` | `admin123` |
+| **Customer** | `ali` | `ali1234` |
+| **Customer (Register)** | (Create your own in-app) | - |
+
+---
+
+## 👥 Team Members (Group 03)
+1.  **See Chwan Kai**
+2.  **Kho Wei Cong**
+3.  **Tee Kian Hao**
+4.  **Tee Chin Yean**
+
+---
+
+## 📜 License
+This project was developed for educational purposes as part of a programming assignment.
